@@ -12,4 +12,15 @@ count=1
   }
 }
 
+resource "aws_instance" "name2" {
+count=1
+  ami = "ami-0fa3fe0fa7920f68e"
+  instance_type = "t3.micro"
+  tags = {
+    Name="shaik2"
+    env="prod"
+  }
+}
+
+
 

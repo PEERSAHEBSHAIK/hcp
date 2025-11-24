@@ -8,5 +8,6 @@ count=1
   instance_type = "t3.micro"
   tags = {
     Name="shaik"
+    env="prod"
   }
 }
